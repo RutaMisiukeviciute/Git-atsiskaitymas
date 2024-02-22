@@ -148,6 +148,12 @@ main {
     top: 5px;
     font-weight: 900;
     font-size: 60px;
+    cursor: pointer;
+  }
+
+  >i:hover {
+    transform: rotate(90deg);
+    transition: 1s;
   }
 
 

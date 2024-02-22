@@ -15,11 +15,10 @@ export default class TabInfo {
     const heading = document.createElement("h1");
     const headingText = document.createTextNode(this.name);
     heading.append(headingText);
-    const line = document.createElement("hr");
 
     const closeButton = document.createElement("i");
     closeButton.classList.add("bi", "bi-x");
-    mainDiv.append(heading, line, closeButton);
+    mainDiv.append(heading, closeButton);
 
     closeButton.addEventListener("click", () => {
       mainDiv.remove();
