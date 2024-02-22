@@ -112,6 +112,7 @@ main {
     >.buttons {
       flex-direction: row;
       justify-content: center;
+      margin-bottom: 16%;
 
       >button {
         width: 130px;
