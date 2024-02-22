@@ -84,6 +84,11 @@ main {
       text-decoration-style: dotted;
     }
 
+    >a:hover {
+      cursor: none;
+      color: rgb(101, 156, 233);
+    }
+
   }
 
   >.buttons {
@@ -99,8 +104,12 @@ main {
       height: 35px;
       text-transform: uppercase;
       font-weight: 100;
-      cursor: pointer;
       font-size: 14px;
+    }
+
+    >button:hover {
+      cursor: none;
+      background-color: rgba(255, 255, 255, 0.332);
     }
 
     >button:first-of-type {
@@ -114,7 +123,7 @@ main {
 }
 
 .tabDiv {
-  margin: 5%;
+  margin: 10% 15% 30% 15%;
   background-color: rgba(0, 0, 0, 0.673);
   position: relative;
   color: white;
@@ -148,6 +157,12 @@ main {
     top: 5px;
     font-weight: 900;
     font-size: 60px;
+    cursor: pointer;
+  }
+
+  >i:hover {
+    transform: rotate(90deg);
+    transition: 1s;
   }
 
 
@@ -185,7 +200,7 @@ main {
   }
 
   .tabDiv {
-    margin: 5% 20%;
+    margin: 4% 20% 20% 20%;
     padding-bottom: 20px;
   }
 }
