@@ -10,12 +10,22 @@ export default class TabInfo {
   }
   render() {
     const mainDiv = document.createElement("div");
+    mainDiv.classList.add("tabDiv");
 
     const heading = document.createElement("h1");
     const headingText = document.createTextNode(this.name);
     heading.append(headingText);
     const line = document.createElement("hr");
-    mainDiv.append(heading, line);
+
+    const closeButton = document.createElement("i");
+    closeButton.classList.add("bi", "bi-x");
+    mainDiv.append(heading, line, closeButton);
+
+    closeButton.addEventListener("click", () => {
+      mainDiv.remove();
+      document.querySelector('main').classList.remove("displayNone")
+      document.querySelector('main').classList.add("displayFlex")
+    })
     const mediaEnding = this.media.substring(this.media.length - 3);
     if (mediaEnding === "jpg" || mediaEnding === "png") {
       const img = document.createElement("img");
