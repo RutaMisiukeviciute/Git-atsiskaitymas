@@ -1,0 +1,29 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./media/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  .bgTransparent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.407);
+  }
+
+  >img {
+    width: 50px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+
+  >* {
+    z-index: 3;
+  }
+}
