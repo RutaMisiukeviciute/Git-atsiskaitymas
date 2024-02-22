@@ -1,8 +1,10 @@
 export default class TabInfo {
-  constructor({ name, media, paragraph }) {
+  constructor({ name, media, info }) {
     this.name = name;
     this.media = media;
-    this.paragraph = paragraph;
+    this.info = info;
+
+
 
     return this.render();
   }
@@ -28,5 +30,13 @@ export default class TabInfo {
       video.append(videoSrc);
       mainDiv.append(video);
     }
+    this.info.forEach(el => {
+      const par = document.createElement("p");
+      const parText = document.createTextNode(el);
+      par.append(parText);
+      mainDiv.append(par);
+    });
+
+    return mainDiv;
   }
 }
