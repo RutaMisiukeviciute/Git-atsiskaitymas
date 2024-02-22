@@ -104,8 +104,12 @@ main {
       height: 35px;
       text-transform: uppercase;
       font-weight: 100;
-      cursor: pointer;
       font-size: 14px;
+    }
+
+    >button:hover {
+      cursor: none;
+      background-color: rgba(255, 255, 255, 0.332);
     }
 
     >button:first-of-type {
