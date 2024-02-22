@@ -1,21 +1,29 @@
 @import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.displayNone {
+  display: none;
+}
+
+.diplayFlex {
+  display: flex;
+}
 
 body {
   background-origin: content-box;
-
   background-image: url(./media/bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Source Sans 3", sans-serif;
 
 
   .bgTransparent {
@@ -103,6 +111,46 @@ main {
   }
 }
 
+.tabDiv {
+  margin: 5%;
+  background-color: rgba(0, 0, 0, 0.673);
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  >video,
+  img {
+    width: 80%;
+  }
+
+  >p {
+    width: 80%;
+    line-height: 1.5;
+  }
+
+  h1 {
+    border-bottom: 1px solid white;
+    align-self: self-start;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  >i {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-weight: 900;
+    font-size: 60px;
+  }
+
+
+}
+
 @media (min-width: 1000px) {
   main {
     >p {
@@ -126,5 +174,10 @@ main {
         border-radius: 0 3px 3px 0;
       }
     }
+  }
+
+  .tabDiv {
+    margin: 5% 20%;
+    padding-bottom: 20px;
   }
 }

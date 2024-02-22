@@ -1,0 +1,40 @@
+{
+  "tabs": [
+    {
+      "id": "1",
+      "name": "Intro",
+      "media": "../media/tab-1.mp4",
+      "info": [
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis, quas, earum ratione non dignissimos porro est obcaecati quasi pariatur maiores iure consequatur magnam nam ut ipsam placeat? Eos magnam dolorum est vitae quae facere omnis nostrum voluptas.",
+        " Veritatis ratione aperiam fugiat voluptatum adipisci harum eos earum quod ea, facilis nobis neque, illo a numquam quia! Reprehenderit aperiam neque consequuntur dolore incidunt. Quae reiciendis, beatae recusandae doloremque fuga est, repellat voluptatibus tempora eaque odio odit! Praesentium, quas officia adipisci in veniam nam, temporibus blanditiis quidem provident, dolores fuga necessitatibus facilis aspernatur aperiam."
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Work",
+      "media": "../media/tab-2.jpg",
+      "info": [
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis, quas, earum ratione non dignissimos porro est obcaecati quasi pariatur maiores iure consequatur magnam nam ut ipsam placeat? Eos magnam dolorum est vitae quae facere omnis nostrum voluptas.",
+        " Veritatis ratione aperiam fugiat voluptatum adipisci harum eos earum quod ea, facilis nobis neque, illo a numquam quia! Reprehenderit aperiam neque consequuntur dolore incidunt. Quae reiciendis, beatae recusandae doloremque fuga est, repellat voluptatibus tempora eaque odio odit! Praesentium, quas officia adipisci in veniam nam, temporibus blanditiis quidem provident, dolores fuga necessitatibus facilis aspernatur aperiam."
+      ]
+    },
+    {
+      "id": "3",
+      "name": "About",
+      "media": "../media/tab-3.jpg",
+      "info": [
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis, quas, earum ratione non dignissimos porro est obcaecati quasi pariatur maiores iure consequatur magnam nam ut ipsam placeat? Eos magnam dolorum est vitae quae facere omnis nostrum voluptas.",
+        " Veritatis ratione aperiam fugiat voluptatum adipisci harum eos earum quod ea, facilis nobis neque, illo a numquam quia! Reprehenderit aperiam neque consequuntur dolore incidunt. Quae reiciendis, beatae recusandae doloremque fuga est, repellat voluptatibus tempora eaque odio odit! Praesentium, quas officia adipisci in veniam nam, temporibus blanditiis quidem provident, dolores fuga necessitatibus facilis aspernatur aperiam."
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Contact",
+      "media": "../media/tab-4.jpg",
+      "info": [
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis, quas, earum ratione non dignissimos porro est obcaecati quasi pariatur maiores iure consequatur magnam nam ut ipsam placeat? Eos magnam dolorum est vitae quae facere omnis nostrum voluptas.",
+        " Veritatis ratione aperiam fugiat voluptatum adipisci harum eos earum quod ea, facilis nobis neque, illo a numquam quia! Reprehenderit aperiam neque consequuntur dolore incidunt. Quae reiciendis, beatae recusandae doloremque fuga est, repellat voluptatibus tempora eaque odio odit! Praesentium, quas officia adipisci in veniam nam, temporibus blanditiis quidem provident, dolores fuga necessitatibus facilis aspernatur aperiam."
+      ]
+    }
+  ]
+}
