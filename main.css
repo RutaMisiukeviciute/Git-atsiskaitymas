@@ -175,4 +175,9 @@ main {
       }
     }
   }
+
+  .tabDiv {
+    margin: 5% 20%;
+    padding-bottom: 20px;
+  }
 }
