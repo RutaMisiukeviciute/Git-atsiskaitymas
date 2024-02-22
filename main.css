@@ -84,6 +84,11 @@ main {
       text-decoration-style: dotted;
     }
 
+    >a:hover {
+      cursor: none;
+      color: rgb(101, 156, 233);
+    }
+
   }
 
   >.buttons {
@@ -114,7 +119,7 @@ main {
 }
 
 .tabDiv {
-  margin: 5%;
+  margin: 10% 15% 30% 15%;
   background-color: rgba(0, 0, 0, 0.673);
   position: relative;
   color: white;
@@ -191,7 +196,7 @@ main {
   }
 
   .tabDiv {
-    margin: 5% 20%;
+    margin: 4% 20% 20% 20%;
     padding-bottom: 20px;
   }
 }
