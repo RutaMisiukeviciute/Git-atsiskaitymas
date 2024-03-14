@@ -85,7 +85,7 @@ main {
     }
 
     >a:hover {
-      cursor: none;
+      cursor: pointer;
       color: rgb(101, 156, 233);
     }
 
@@ -108,7 +108,7 @@ main {
     }
 
     >button:hover {
-      cursor: none;
+      cursor: pointer;
       background-color: rgba(255, 255, 255, 0.332);
     }
 
@@ -158,11 +158,11 @@ main {
     font-weight: 900;
     font-size: 60px;
     cursor: pointer;
+    transition: 1s;
   }
 
   >i:hover {
     transform: rotate(90deg);
-    transition: 1s;
   }
 
 
